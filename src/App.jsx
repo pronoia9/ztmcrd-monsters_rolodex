@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import SearchBar from './components/search-bar/search-bar';
 import CardList from './components/card-list/card-list';
 import './App.css';
 
@@ -18,9 +19,13 @@ export default function App() {
     })();
   }, []);
 
+  // filter
+  const [filter, setFilter] = useState('');
+
   return (
     <div className='App'>
-      <CardList data={data} />
+      <SearchBar filter={filter} setFilter={setFilter} />
+      <CardList filter={filter} data={data} />
     </div>
   );
 }

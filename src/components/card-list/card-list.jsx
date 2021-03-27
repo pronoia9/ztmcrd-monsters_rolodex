@@ -8,9 +8,13 @@ export default function CardList(props) {
   return (
     <Container fluid='md' className='card-list'>
       <Row>
-        {props.data.map((d) => (
-          <MonsterCard key={d.id} data={d} />
-        ))}
+        {props.data
+          .filter((d) => {
+            return d.name.toLowerCase().includes(props.filter);
+          })
+          .map((d) => (
+            <MonsterCard key={d.id} data={d} />
+          ))}
       </Row>
     </Container>
   );
