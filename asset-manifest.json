@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/pronoia9/ztmcrd-monsters_rolodex/static/css/main.23acc42c.chunk.css",
-    "main.js": "/pronoia9/ztmcrd-monsters_rolodex/static/js/main.2ecf9286.chunk.js",
-    "main.js.map": "/pronoia9/ztmcrd-monsters_rolodex/static/js/main.2ecf9286.chunk.js.map",
-    "runtime-main.js": "/pronoia9/ztmcrd-monsters_rolodex/static/js/runtime-main.7b5687d3.js",
-    "runtime-main.js.map": "/pronoia9/ztmcrd-monsters_rolodex/static/js/runtime-main.7b5687d3.js.map",
-    "static/js/2.bb58fa66.chunk.js": "/pronoia9/ztmcrd-monsters_rolodex/static/js/2.bb58fa66.chunk.js",
-    "static/js/2.bb58fa66.chunk.js.map": "/pronoia9/ztmcrd-monsters_rolodex/static/js/2.bb58fa66.chunk.js.map",
-    "static/js/3.68ae06bd.chunk.js": "/pronoia9/ztmcrd-monsters_rolodex/static/js/3.68ae06bd.chunk.js",
-    "static/js/3.68ae06bd.chunk.js.map": "/pronoia9/ztmcrd-monsters_rolodex/static/js/3.68ae06bd.chunk.js.map",
+    "main.js": "/pronoia9/ztmcrd-monsters_rolodex/static/js/main.314f2dfc.chunk.js",
+    "main.js.map": "/pronoia9/ztmcrd-monsters_rolodex/static/js/main.314f2dfc.chunk.js.map",
+    "runtime-main.js": "/pronoia9/ztmcrd-monsters_rolodex/static/js/runtime-main.c09a3a8c.js",
+    "runtime-main.js.map": "/pronoia9/ztmcrd-monsters_rolodex/static/js/runtime-main.c09a3a8c.js.map",
+    "static/js/2.219e6b35.chunk.js": "/pronoia9/ztmcrd-monsters_rolodex/static/js/2.219e6b35.chunk.js",
+    "static/js/2.219e6b35.chunk.js.map": "/pronoia9/ztmcrd-monsters_rolodex/static/js/2.219e6b35.chunk.js.map",
+    "static/js/3.9087c4dd.chunk.js": "/pronoia9/ztmcrd-monsters_rolodex/static/js/3.9087c4dd.chunk.js",
+    "static/js/3.9087c4dd.chunk.js.map": "/pronoia9/ztmcrd-monsters_rolodex/static/js/3.9087c4dd.chunk.js.map",
     "index.html": "/pronoia9/ztmcrd-monsters_rolodex/index.html",
     "static/css/main.23acc42c.chunk.css.map": "/pronoia9/ztmcrd-monsters_rolodex/static/css/main.23acc42c.chunk.css.map",
-    "static/js/2.bb58fa66.chunk.js.LICENSE.txt": "/pronoia9/ztmcrd-monsters_rolodex/static/js/2.bb58fa66.chunk.js.LICENSE.txt"
+    "static/js/2.219e6b35.chunk.js.LICENSE.txt": "/pronoia9/ztmcrd-monsters_rolodex/static/js/2.219e6b35.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7b5687d3.js",
-    "static/js/2.bb58fa66.chunk.js",
+    "static/js/runtime-main.c09a3a8c.js",
+    "static/js/2.219e6b35.chunk.js",
     "static/css/main.23acc42c.chunk.css",
-    "static/js/main.2ecf9286.chunk.js"
+    "static/js/main.314f2dfc.chunk.js"
   ]
 }
