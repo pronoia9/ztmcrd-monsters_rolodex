@@ -1,6 +1,6 @@
 .card-container {
-  background-color: #95dada;
-  border: 1px solid grey;
+  background-color: rgba(0, 0, 0, 0.443);
+  color: white;
   border-radius: 5px;
   padding: 15px;
   margin: 15px 0;
@@ -17,6 +17,8 @@
   transform: scale(1.05);
 }
 
-.card-container h2 {
-  padding: 1rem 0;
+.card-container .card-title {
+}
+
+.card-container .card-text {
 }

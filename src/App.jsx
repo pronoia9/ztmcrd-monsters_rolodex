@@ -24,6 +24,7 @@ export default function App() {
 
   return (
     <div className='App'>
+      <h1>Monsters Rolodex</h1>
       <SearchBar filter={filter} setFilter={setFilter} />
       <CardList filter={filter} data={data} />
     </div>
