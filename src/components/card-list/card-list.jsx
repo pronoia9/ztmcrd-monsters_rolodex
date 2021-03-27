@@ -10,7 +10,7 @@ export default function CardList(props) {
       <Row>
         {props.data
           .filter((d) => {
-            return d.name.toLowerCase().includes(props.filter);
+            return d.name.toLowerCase().includes(props.filter.toLowerCase());
           })
           .map((d) => (
             <MonsterCard key={d.id} data={d} />
