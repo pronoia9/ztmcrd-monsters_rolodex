@@ -9,7 +9,7 @@
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
-  min-height: 375px;
+  min-height: 350px;
   min-width: 255px;
 }
 
