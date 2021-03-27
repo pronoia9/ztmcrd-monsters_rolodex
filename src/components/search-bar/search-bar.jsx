@@ -7,15 +7,14 @@ import './search-bar.styles.css';
 export default function SearchBar(props) {
   return (
     <Container fluid='md' className='search'>
-      <InputGroup size='lg'>
+      <InputGroup size={props.size}>
         <InputGroup.Prepend>
-          <InputGroup.Text id='inputGroup-sizing-lg'>🕵️</InputGroup.Text>
+          <InputGroup.Text id='inputGroup-sizing-lg'>{props.label}</InputGroup.Text>
         </InputGroup.Prepend>
         <FormControl
-          placeholder='Search monsters'
-          aria-label='Search'
+          placeholder={props.placeholder}
           value={props.filter}
-          onChange={(e) => props.setFilter(e.target.value)}
+          onChange={(e) => props.handleChange(e)}
         />
       </InputGroup>
     </Container>

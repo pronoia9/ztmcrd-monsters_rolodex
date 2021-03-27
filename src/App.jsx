@@ -25,7 +25,12 @@ export default function App() {
   return (
     <div className='App'>
       <h1>Monsters Rolodex</h1>
-      <SearchBar filter={filter} setFilter={setFilter} />
+      <SearchBar
+        size='lg'
+        label='🕵️'
+        placeholder='Search monsters'
+        handleChange={(e) => setFilter(e.target.value)}
+      />
       <CardList filter={filter} data={data} />
     </div>
   );
