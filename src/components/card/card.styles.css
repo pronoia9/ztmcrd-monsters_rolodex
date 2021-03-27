@@ -18,6 +18,7 @@
 }
 
 .card-container .card-title {
+  font-weight: bolder;
 }
 
 .card-container .card-text {
