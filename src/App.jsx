@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import CardList from './components/card-list/card-list';
 import './App.css';
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
 
   return (
     <div className='App'>
+      <CardList />
       {data.map((d) => (
         <h1 key={d.id}>{d.name}</h1>
       ))}
