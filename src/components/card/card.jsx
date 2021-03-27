@@ -4,7 +4,8 @@ import './card.styles.css';
 export default function Card(props) {
   return (
     <div className='card-container'>
-      <h1>{props.data.name}</h1>
+      <img alt='monster' src={`https://robohash.org/${props.data.id}?set=set2`} />
+      <h2>{props.data.name}</h2>
     </div>
   );
 }
