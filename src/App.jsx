@@ -20,10 +20,11 @@ export default function App() {
 
   return (
     <div className='App'>
-      <CardList />
-      {data.map((d) => (
-        <h1 key={d.id}>{d.name}</h1>
-      ))}
+      <CardList>
+        {data.map((d) => (
+          <h1 key={d.id}>{d.name}</h1>
+        ))}
+      </CardList>
     </div>
   );
 }
